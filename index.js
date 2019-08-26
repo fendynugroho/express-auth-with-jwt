@@ -21,4 +21,4 @@ app.use(express.json());
 app.use('/api/user', authRoute);
 app.use('/api/posts', postRoute);
 
-app.listen(3030, () => console.log('Yeay, App listening on port 3030!'));
+app.listen(3030, () => console.log('Yeay your app is running, App listening on port 3030!'));
